@@ -1,0 +1,48 @@
+.topbar {
+  height: 56px;
+  background: #1f2937;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 1rem;
+
+  .left, .right {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .icon-btn {
+    background: none;
+    border: none;
+    color: white;
+    font-size: 1.4rem;
+    cursor: pointer;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    img {
+      height: 28px;
+    }
+  }
+
+  .avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+  }
+
+  .mobile {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .desktop { display: none; }
+  .mobile { display: inline; }
+}

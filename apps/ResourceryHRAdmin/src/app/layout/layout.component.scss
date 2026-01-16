@@ -1,0 +1,18 @@
+:host {
+  display: block;
+  height: 100vh;
+}
+
+.layout-body {
+  display: flex;
+  height: calc(100vh - 56px); // exactly below topnav
+  overflow: hidden;
+}
+
+.content {
+  flex: 1;
+  min-width: 0; // IMPORTANT for flex layouts
+  background: #f9fafb;
+  padding: 1rem;
+  overflow: auto;
+}

@@ -1,0 +1,71 @@
+$sidebar-width: 240px;
+$sidebar-collapsed: 64px;
+$topnav-height: 56px;
+
+.sidebar {
+  height: 100%;                 // 🔑 fills layout-body
+  width: $sidebar-width;
+  background: #111827;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  transition: width 0.25s ease, transform 0.25s ease;
+  overflow-y: auto;             // scroll inside sidebar
+}
+
+/* Links */
+.sidebar a {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.75rem 1rem;
+  color: #d1d5db;
+  text-decoration: none;
+}
+
+.sidebar a:hover {
+  background: rgba(255, 255, 255, 0.08);
+  color: white;
+}
+
+/* Collapsed (desktop) */
+.sidebar.collapsed {
+  width: $sidebar-collapsed;
+
+  .label {
+    display: none;
+  }
+
+  a {
+    justify-content: center;
+  }
+}
+
+/* ---------------- MOBILE ---------------- */
+
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: $topnav-height;        // 🔑 pinned under topnav
+    bottom: 0;                  // 🔑 fills to bottom
+    left: 0;
+    height: auto;               // allow top+bottom to rule
+    transform: translateX(-100%);
+    z-index: 1000;
+  }
+
+  .sidebar.mobile-open {
+    transform: translateX(0);
+  }
+}
+
+/* Overlay */
+.overlay {
+  position: fixed;
+  top: $topnav-height;          // 🔑 no gap under nav
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0,0,0,0.4);
+  z-index: 999;
+}

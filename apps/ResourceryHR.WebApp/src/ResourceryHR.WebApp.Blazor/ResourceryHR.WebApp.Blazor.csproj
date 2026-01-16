@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Components.WebAssembly.Server" Version="9.0.0.0" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\..\..\..\shared\ResourceryHR.Hosting.Shared\ResourceryHR.Hosting.Shared.csproj" />
+        <ProjectReference Include="..\..\..\..\shared\ResourceryHR.ServiceDefaults\ResourceryHR.ServiceDefaults.csproj" />
+        <ProjectReference Include="..\ResourceryHR.WebApp.Blazor.Client\ResourceryHR.WebApp.Blazor.Client.csproj" />
+    </ItemGroup>
+
+</Project>

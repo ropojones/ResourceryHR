@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ResourceryHR.Administration.Domain.Shared": {
+      "path": "src/ResourceryHR.Administration.Domain.Shared/ResourceryHR.Administration.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.Domain": {
+      "path": "src/ResourceryHR.Administration.Domain/ResourceryHR.Administration.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.Application.Contracts": {
+      "path": "src/ResourceryHR.Administration.Application.Contracts/ResourceryHR.Administration.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.Application": {
+      "path": "src/ResourceryHR.Administration.Application/ResourceryHR.Administration.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.EntityFrameworkCore": {
+      "path": "src/ResourceryHR.Administration.EntityFrameworkCore/ResourceryHR.Administration.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.MongoDB": {
+      "path": "src/ResourceryHR.Administration.MongoDB/ResourceryHR.Administration.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.HttpApi": {
+      "path": "src/ResourceryHR.Administration.HttpApi/ResourceryHR.Administration.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.HttpApi.Client": {
+      "path": "src/ResourceryHR.Administration.HttpApi.Client/ResourceryHR.Administration.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Administration.TestBase": {
+      "path": "test/ResourceryHR.Administration.TestBase/ResourceryHR.Administration.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Administration.EntityFrameworkCore.Tests": {
+      "path": "test/ResourceryHR.Administration.EntityFrameworkCore.Tests/ResourceryHR.Administration.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Administration.MongoDB.Tests": {
+      "path": "test/ResourceryHR.Administration.MongoDB.Tests/ResourceryHR.Administration.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Administration.Domain.Tests": {
+      "path": "test/ResourceryHR.Administration.Domain.Tests/ResourceryHR.Administration.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Administration.Application.Tests": {
+      "path": "test/ResourceryHR.Administration.Application.Tests/ResourceryHR.Administration.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Administration.HttpApi.Host": {
+      "path": "host/ResourceryHR.Administration.HttpApi.Host/ResourceryHR.Administration.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryHR.Administration.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ResourceryHR.Administration.HttpApi.Client.ConsoleTestApp/ResourceryHR.Administration.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Administration.IdentityServer": {
+      "path": "host/ResourceryHR.Administration.IdentityServer/ResourceryHR.Administration.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryHR.Administration.Host.Shared": {
+      "path": "host/ResourceryHR.Administration.Host.Shared/ResourceryHR.Administration.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

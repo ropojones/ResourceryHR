@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <RootNamespace>ResourceryHR.Projects</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Volo.Abp.AspNetCore.Mvc" Version="9.0.0" />
+        <ProjectReference Include="..\ResourceryHR.Projects.Application.Contracts\ResourceryHR.Projects.Application.Contracts.csproj" />
+    </ItemGroup>
+
+</Project>

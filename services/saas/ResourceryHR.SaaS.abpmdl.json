@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ResourceryHR.SaaS.Domain.Shared": {
+      "path": "src/ResourceryHR.SaaS.Domain.Shared/ResourceryHR.SaaS.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.Domain": {
+      "path": "src/ResourceryHR.SaaS.Domain/ResourceryHR.SaaS.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.Application.Contracts": {
+      "path": "src/ResourceryHR.SaaS.Application.Contracts/ResourceryHR.SaaS.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.Application": {
+      "path": "src/ResourceryHR.SaaS.Application/ResourceryHR.SaaS.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.EntityFrameworkCore": {
+      "path": "src/ResourceryHR.SaaS.EntityFrameworkCore/ResourceryHR.SaaS.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.MongoDB": {
+      "path": "src/ResourceryHR.SaaS.MongoDB/ResourceryHR.SaaS.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.HttpApi": {
+      "path": "src/ResourceryHR.SaaS.HttpApi/ResourceryHR.SaaS.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.HttpApi.Client": {
+      "path": "src/ResourceryHR.SaaS.HttpApi.Client/ResourceryHR.SaaS.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.SaaS.TestBase": {
+      "path": "test/ResourceryHR.SaaS.TestBase/ResourceryHR.SaaS.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.SaaS.EntityFrameworkCore.Tests": {
+      "path": "test/ResourceryHR.SaaS.EntityFrameworkCore.Tests/ResourceryHR.SaaS.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.SaaS.MongoDB.Tests": {
+      "path": "test/ResourceryHR.SaaS.MongoDB.Tests/ResourceryHR.SaaS.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.SaaS.Domain.Tests": {
+      "path": "test/ResourceryHR.SaaS.Domain.Tests/ResourceryHR.SaaS.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.SaaS.Application.Tests": {
+      "path": "test/ResourceryHR.SaaS.Application.Tests/ResourceryHR.SaaS.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.SaaS.HttpApi.Host": {
+      "path": "host/ResourceryHR.SaaS.HttpApi.Host/ResourceryHR.SaaS.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryHR.SaaS.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ResourceryHR.SaaS.HttpApi.Client.ConsoleTestApp/ResourceryHR.SaaS.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.SaaS.IdentityServer": {
+      "path": "host/ResourceryHR.SaaS.IdentityServer/ResourceryHR.SaaS.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryHR.SaaS.Host.Shared": {
+      "path": "host/ResourceryHR.SaaS.Host.Shared/ResourceryHR.SaaS.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}
