@@ -34,7 +34,7 @@
             <PrivateAssets>all</PrivateAssets>
             <Version>3.*</Version>
         </PackageReference>
-        <PackageReference Include="NodaTime" Version="$(NodaTimePackageVersion)" />
+        <PackageReference Include="NodaTime" Version="3.1.0" />
     </ItemGroup>
 
     <ItemGroup>

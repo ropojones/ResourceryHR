@@ -12,6 +12,7 @@
         <PackageReference Include="Volo.Abp.FeatureManagement.Application.Contracts" Version="9.0.0" />
         <PackageReference Include="Volo.Abp.PermissionManagement.Application.Contracts" Version="9.0.0" />
         <PackageReference Include="Volo.Abp.SettingManagement.Application.Contracts" Version="9.0.0" />
+        <PackageReference Include="NodaTime" Version="3.1.10" />
         <ProjectReference Include="..\ResourceryHR.Administration.Domain.Shared\ResourceryHR.Administration.Domain.Shared.csproj" />
     </ItemGroup>
 

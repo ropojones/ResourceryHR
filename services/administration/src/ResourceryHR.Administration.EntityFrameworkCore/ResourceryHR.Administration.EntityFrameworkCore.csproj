@@ -21,4 +21,8 @@
         </PackageReference>
         <ProjectReference Include="..\..\..\..\shared\ResourceryHR.Shared\ResourceryHR.Shared.csproj" />
         <ProjectReference Include="..\ResourceryHR.Administration.Domain\ResourceryHR.Administration.Domain.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
     </ItemGroup></Project>

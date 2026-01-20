@@ -22,4 +22,8 @@
     <ItemGroup>
         <EmbeddedResource Include="Localization\IdentityService\*.json" />
         <Content Remove="Localization\IdentityService\*.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
     </ItemGroup></Project>

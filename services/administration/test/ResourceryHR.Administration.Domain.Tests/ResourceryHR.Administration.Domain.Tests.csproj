@@ -12,4 +12,8 @@
     <ProjectReference Include="..\ResourceryHR.Administration.EntityFrameworkCore.Tests\ResourceryHR.Administration.EntityFrameworkCore.Tests.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="NodaTime" Version="3.1.10" />
+  </ItemGroup>
+
 </Project>

@@ -14,4 +14,8 @@
         <ProjectReference Include="..\ResourceryHR.SaaS.Application.Contracts\ResourceryHR.SaaS.Application.Contracts.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
+    </ItemGroup>
+
 </Project>

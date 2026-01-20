@@ -37,4 +37,8 @@
         <ProjectReference Include="..\..\src\ResourceryHR.Projects.HttpApi\ResourceryHR.Projects.HttpApi.csproj" />
         <ProjectReference Include="..\..\src\ResourceryHR.Projects.Application\ResourceryHR.Projects.Application.csproj" />
         <ProjectReference Include="..\..\src\ResourceryHR.Projects.EntityFrameworkCore\ResourceryHR.Projects.EntityFrameworkCore.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
     </ItemGroup></Project>

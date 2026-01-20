@@ -51,4 +51,8 @@
     <ProjectReference Include="..\..\shared\ResourceryHR.ServiceDefaults\ResourceryHR.ServiceDefaults.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Update="NodaTime" Version="3.1.10" />
+  </ItemGroup>
+
 </Project>

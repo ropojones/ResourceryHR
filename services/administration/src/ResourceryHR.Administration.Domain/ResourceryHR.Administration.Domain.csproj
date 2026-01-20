@@ -17,4 +17,8 @@
         <ProjectReference Include="..\ResourceryHR.Administration.Domain.Shared\ResourceryHR.Administration.Domain.Shared.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
+    </ItemGroup>
+
 </Project>

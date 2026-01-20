@@ -20,4 +20,8 @@
     <ItemGroup>
         <EmbeddedResource Include="Localization\SaaS\*.json" />
         <Content Remove="Localization\SaaS\*.json" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
     </ItemGroup></Project>

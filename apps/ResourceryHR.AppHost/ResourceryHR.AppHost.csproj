@@ -32,4 +32,8 @@
         <ProjectReference Include="..\..\shared\ResourceryHR.Shared\ResourceryHR.Shared.csproj" IsAspireProjectResource="false" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
+    </ItemGroup>
+
 </Project>

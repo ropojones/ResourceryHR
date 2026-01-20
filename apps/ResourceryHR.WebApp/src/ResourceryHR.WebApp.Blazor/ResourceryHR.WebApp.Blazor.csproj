@@ -15,4 +15,8 @@
         <ProjectReference Include="..\ResourceryHR.WebApp.Blazor.Client\ResourceryHR.WebApp.Blazor.Client.csproj" />
     </ItemGroup>
 
+    <ItemGroup>
+      <PackageReference Update="NodaTime" Version="3.1.10" />
+    </ItemGroup>
+
 </Project>
