@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.OpenApi;
-using Microsoft.OpenApi.Models;
+using Microsoft.OpenApi;
 
 namespace ResourceryHR.Gateway;
 
@@ -14,21 +14,13 @@ public static class OpenApiOptionsExtensions
             Type = SecuritySchemeType.Http,
             Name = JwtBearerDefaults.AuthenticationScheme,
             Scheme = JwtBearerDefaults.AuthenticationScheme,
-            Reference = new OpenApiReference
-            {
-                Type = ReferenceType.SecurityScheme,
-                Id = JwtBearerDefaults.AuthenticationScheme,
-            },
         };
 
         options.AddDocumentTransformer(
             (document, context, cancellationToken) =>
             {
                 document.Components ??= new();
-                document.Components.SecuritySchemes.Add(
-                    JwtBearerDefaults.AuthenticationScheme,
-                    scheme
-                );
+                document.Components.SecuritySchemes[JwtBearerDefaults.AuthenticationScheme] = scheme;
 
                 return Task.CompletedTask;
             }
@@ -43,7 +35,13 @@ public static class OpenApiOptionsExtensions
                         .Any()
                 )
                 {
-                    operation.Security = [new() { [scheme] = [] }];
+                    // In OpenAPI 2.0+, reference the scheme by ID
+                    var schemeReference = new OpenApiSecuritySchemeReference(
+                        JwtBearerDefaults.AuthenticationScheme,
+                        null,
+                        null
+                    );
+                    operation.Security = [new OpenApiSecurityRequirement { [schemeReference] = [] }];
                 }
 
                 return Task.CompletedTask;

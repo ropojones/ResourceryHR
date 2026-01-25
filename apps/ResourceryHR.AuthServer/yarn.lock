@@ -261,11 +261,16 @@ jquery-validation-unobtrusive@^4.0.0:
     jquery-validation ">=1.19"
 
 jquery-validation@>=1.19, jquery-validation@^1.21.0:
-  version "1.21.0"
-  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.21.0.tgz#78fc05ab76020912a246af3661b3f54a438bca93"
-  integrity sha512-xNot0rlUIgu7duMcQ5qb6MGkGL/Z1PQaRJQoZAURW9+a/2PGOUxY36o/WyNeP2T9R6jvWB8Z9lUVvvQWI/Zs5w==
+  version "1.22.0"
+  resolved "https://registry.yarnpkg.com/jquery-validation/-/jquery-validation-1.22.0.tgz#5fc38450c6deff05ce1d11545cd52be721bad21a"
+  integrity sha512-W/e+/suHHWHxdE9Byt9eMtYchy6a+RG9pqGTDiqz6DWcgwhrxVh2OVl8jCi3NSkmACeOW/wiPgLN3KM63+aSWg==
 
-jquery@>=1.10, jquery@>=1.12.0, jquery@>=1.2.6, "jquery@>=1.5.0 <4.0", jquery@>=1.7, jquery@>=1.7.2, "jquery@>=3.4.0 <4.0.0", jquery@^3.6.0, jquery@~3.7.1:
+jquery@>=1.10, jquery@>=1.12.0, jquery@>=1.2.6, jquery@>=1.7, jquery@>=1.7.2:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-4.0.0.tgz#95c33ac29005ff72ec444c5ba1cf457e61404fbb"
+  integrity sha512-TXCHVR3Lb6TZdtw1l3RTLf8RBWVGexdxL6AC8/e0xZKEpBflBsjh9/8LXw+dkNFuOyW9B7iB3O1sP7hS0Kiacg==
+
+"jquery@>=1.5.0 <4.0", "jquery@>=3.4.0 <4.0.0", jquery@^3.6.0, jquery@~3.7.1:
   version "3.7.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.7.1.tgz#083ef98927c9a6a74d05a6af02806566d16274de"
   integrity sha512-m4avr8yL8kmFN8psrbFFFmB/If14iN5o9nw/NgnnM+kybDJpRsAynV2BsfpTYrTRysYUdADVD7CkUUizgkpLfg==
@@ -276,9 +281,9 @@ just-compare@^2.3.0:
   integrity sha512-6shoR7HDT+fzfL3gBahx1jZG3hWLrhPAf+l7nCwahDdT9XDtosB9kIF0ZrzUp5QY8dJWfQVr5rnsPqsbvflDzg==
 
 lodash@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+  version "4.17.23"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.23.tgz#f113b0378386103be4f6893388c73d0bde7f2c5a"
+  integrity sha512-LgVTMpQtIopCi79SJeDiP0TfWi5CNEc/L/aRdTh3yIvmZXTnheWpKjSZhnvMl8iXbC1tFg9gdHHDMLoV7CnG+w==
 
 luxon@^3.5.0:
   version "3.7.2"

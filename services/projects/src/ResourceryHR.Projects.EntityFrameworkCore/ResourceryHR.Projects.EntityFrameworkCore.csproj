@@ -1,26 +1,22 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
     <PropertyGroup>
-        <TargetFramework>net9.0</TargetFramework>
+        <TargetFramework>net10.0</TargetFramework>
         <RootNamespace>ResourceryHR.Projects</RootNamespace>
     </PropertyGroup>
 
     <ItemGroup>
-        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.0">
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="10.0.0">
           <PrivateAssets>all</PrivateAssets>
           <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-        <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="9.0.0" />
-        <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="9.0.0" />
+        <PackageReference Include="Volo.Abp.EntityFrameworkCore" Version="10.0.2" />
+        <PackageReference Include="Volo.Abp.EntityFrameworkCore.PostgreSql" Version="10.0.2" />
     </ItemGroup>
 
     <ItemGroup>
         <ProjectReference Include="..\..\..\..\shared\ResourceryHR.Shared\ResourceryHR.Shared.csproj" />
         <ProjectReference Include="..\ResourceryHR.Projects.Domain\ResourceryHR.Projects.Domain.csproj" />
-    </ItemGroup>
-
-    <ItemGroup>
-      <PackageReference Update="NodaTime" Version="3.1.10" />
     </ItemGroup>
 
 </Project>

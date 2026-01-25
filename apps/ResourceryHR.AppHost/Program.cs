@@ -1,5 +1,6 @@
 using Microsoft.Extensions.Hosting;
 using Projects;
+
 namespace ResourceryHR.AppHost;
 
 internal class Program

@@ -1,9 +1,9 @@
-﻿<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="Microsoft.NET.Sdk">
 
 
 
   <PropertyGroup>
-    <TargetFramework>net9.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <RootNamespace>ResourceryHR.Projects</RootNamespace>
   </PropertyGroup>
 
@@ -11,10 +11,6 @@
     <ProjectReference Include="..\..\src\ResourceryHR.Projects.Application\ResourceryHR.Projects.Application.csproj" />
     <ProjectReference Include="..\ResourceryHR.Projects.Domain.Tests\ResourceryHR.Projects.Domain.Tests.csproj" />
     <PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.12.0" />
-  </ItemGroup>
-
-  <ItemGroup>
-    <PackageReference Update="NodaTime" Version="3.1.10" />
   </ItemGroup>
 
 </Project>

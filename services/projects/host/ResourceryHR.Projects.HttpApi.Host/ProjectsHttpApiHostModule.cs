@@ -106,8 +106,7 @@ public class ProjectsHttpApiHostModule : AbpModule
             var configuration = context.GetConfiguration();
             options.OAuthClientId(configuration["AuthServer:SwaggerClientId"]);
             options.OAuthClientSecret(configuration["AuthServer:SwaggerClientSecret"]);
-            options.OAuthScopes("Projects");
-             options.OAuthScopes("ResourceryHRIdentityService");
+            options.OAuthScopes("ResourceryHRProjects");
         });
         app.UseAuditing();
         app.UseAbpSerilogEnrichers();

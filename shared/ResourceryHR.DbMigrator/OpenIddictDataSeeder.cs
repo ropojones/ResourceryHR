@@ -182,7 +182,8 @@ public class OpenIddictDataSeeder(
                 }
             }
 
-            application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Logout);
+            // OpenIddict 7.x removed Logout endpoint permission
+            // application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Logout);
 
             foreach (var grantType in grantTypes)
             {
@@ -256,7 +257,8 @@ public class OpenIddictDataSeeder(
                     application.Permissions.Add(
                         OpenIddictConstants.Permissions.GrantTypes.DeviceCode
                     );
-                    application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Device);
+                    // OpenIddict 7.x removed Device endpoint permission
+                    // application.Permissions.Add(OpenIddictConstants.Permissions.Endpoints.Device);
                 }
 
                 if (grantType == OpenIddictConstants.GrantTypes.Implicit)
