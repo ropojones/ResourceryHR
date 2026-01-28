@@ -197,7 +197,7 @@ orleans.codegen.cs
 # (https://github.com/github/gitignore/pull/1529#issuecomment-104372622)
 #bower_components/
 
-# RIA/Silverlight recruitment
+# RIA/Silverlight projects
 Generated_Code/
 
 # Backup & report files from converting an old project file
@@ -212,7 +212,7 @@ UpgradeLog*.htm
 *.mdf
 *.ldf
 
-# Business Intelligence recruitment
+# Business Intelligence projects
 *.rdl.data
 *.bim.layout
 *.bim_*.settings
@@ -252,8 +252,8 @@ paket-files/
 *.sln.iml
 
 # Recruitment
-host/Resourcery.Recruitment.IdentityServer/Logs/logs.txt
-host/Resourcery.Recruitment.HttpApi.Host/Logs/logs.txt
-host/Resourcery.Recruitment.Web.Host/Logs/logs.txt
-host/Resourcery.Recruitment.Web.Unified/Logs/logs.txt
-host/Resourcery.Recruitment.Blazor.Server.Host/Logs/logs.txt
+host/ResourceryHR.Recruitment.IdentityServer/Logs/logs.txt
+host/ResourceryHR.Recruitment.HttpApi.Host/Logs/logs.txt
+host/ResourceryHR.Recruitment.Web.Host/Logs/logs.txt
+host/ResourceryHR.Recruitment.Web.Unified/Logs/logs.txt
+host/ResourceryHR.Recruitment.Blazor.Server.Host/Logs/logs.txt

@@ -16,7 +16,7 @@ services:
     ports:
       - "51600:80"
 
-  recruitment:
+  projects:
     environment:
       - ASPNETCORE_URLS=http://0.0.0.0:80
       - ConnectionStrings__Default=Server=sqlserver;Database=Recruitment_ModuleDb;Trusted_Connection=True;User=sa;Password=yourStrong(!)Password;Integrated Security=false

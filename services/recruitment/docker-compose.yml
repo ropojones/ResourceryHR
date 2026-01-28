@@ -13,10 +13,10 @@ services:
     depends_on:
       - sqlserver      
   
-  recruitment:
+  projects:
     build:
       context: ../../
-      dockerfile: templates/service/host/Resourcery.Recruitment.Host/Dockerfile
+      dockerfile: templates/service/host/ResourceryHR.Recruitment.Host/Dockerfile
     depends_on:
       - sqlserver
       - identity-server

@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "ResourceryHR.Recruitment.Domain.Shared": {
+      "path": "src/ResourceryHR.Recruitment.Domain.Shared/ResourceryHR.Recruitment.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.Domain": {
+      "path": "src/ResourceryHR.Recruitment.Domain/ResourceryHR.Recruitment.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.Application.Contracts": {
+      "path": "src/ResourceryHR.Recruitment.Application.Contracts/ResourceryHR.Recruitment.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.Application": {
+      "path": "src/ResourceryHR.Recruitment.Application/ResourceryHR.Recruitment.Application.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.EntityFrameworkCore": {
+      "path": "src/ResourceryHR.Recruitment.EntityFrameworkCore/ResourceryHR.Recruitment.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.MongoDB": {
+      "path": "src/ResourceryHR.Recruitment.MongoDB/ResourceryHR.Recruitment.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.HttpApi": {
+      "path": "src/ResourceryHR.Recruitment.HttpApi/ResourceryHR.Recruitment.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.HttpApi.Client": {
+      "path": "src/ResourceryHR.Recruitment.HttpApi.Client/ResourceryHR.Recruitment.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "ResourceryHR.Recruitment.TestBase": {
+      "path": "test/ResourceryHR.Recruitment.TestBase/ResourceryHR.Recruitment.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Recruitment.EntityFrameworkCore.Tests": {
+      "path": "test/ResourceryHR.Recruitment.EntityFrameworkCore.Tests/ResourceryHR.Recruitment.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Recruitment.MongoDB.Tests": {
+      "path": "test/ResourceryHR.Recruitment.MongoDB.Tests/ResourceryHR.Recruitment.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Recruitment.Domain.Tests": {
+      "path": "test/ResourceryHR.Recruitment.Domain.Tests/ResourceryHR.Recruitment.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Recruitment.Application.Tests": {
+      "path": "test/ResourceryHR.Recruitment.Application.Tests/ResourceryHR.Recruitment.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Recruitment.HttpApi.Host": {
+      "path": "host/ResourceryHR.Recruitment.HttpApi.Host/ResourceryHR.Recruitment.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryHR.Recruitment.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/ResourceryHR.Recruitment.HttpApi.Client.ConsoleTestApp/ResourceryHR.Recruitment.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "ResourceryHR.Recruitment.IdentityServer": {
+      "path": "host/ResourceryHR.Recruitment.IdentityServer/ResourceryHR.Recruitment.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "ResourceryHR.Recruitment.Host.Shared": {
+      "path": "host/ResourceryHR.Recruitment.Host.Shared/ResourceryHR.Recruitment.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

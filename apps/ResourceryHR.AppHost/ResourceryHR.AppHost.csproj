@@ -27,6 +27,7 @@
         <ProjectReference Include="..\..\services\identity\host\ResourceryHR.IdentityService.HttpApi.Host\ResourceryHR.IdentityService.HttpApi.Host.csproj" />
         <ProjectReference Include="..\..\services\projects\host\ResourceryHR.Projects.HttpApi.Host\ResourceryHR.Projects.HttpApi.Host.csproj" />
         <ProjectReference Include="..\..\services\saas\host\ResourceryHR.SaaS.HttpApi.Host\ResourceryHR.SaaS.HttpApi.Host.csproj" />
+       <ProjectReference Include="..\..\services\recruitment\host\ResourceryHR.Recruitment.HttpApi.Host\ResourceryHR.Recruitment.HttpApi.Host.csproj" />
         <ProjectReference Include="..\ResourceryHR.WebApp\src\ResourceryHR.WebApp.Blazor\ResourceryHR.WebApp.Blazor.csproj" />
         <ProjectReference Include="..\..\shared\ResourceryHR.DbMigrator\ResourceryHR.DbMigrator.csproj" />
         <ProjectReference Include="..\..\shared\ResourceryHR.Shared\ResourceryHR.Shared.csproj" IsAspireProjectResource="false" />

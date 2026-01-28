@@ -85,6 +85,20 @@ internal class Program
             .WithReference(seq)
             .WaitForCompletion(migrator);
 
+
+        builder
+            .AddProject<ResourceryHR_Recruitment_HttpApi_Host>(
+                ResourceryHRNames.RecruitmentApi,
+                launchProfileName: LaunchProfileName
+            )
+            .WithExternalHttpEndpoints()
+            .WithReference(adminDb)
+            .WithReference(projectsDb)
+            .WithReference(rabbitMq)
+            .WithReference(redis)
+            .WithReference(seq)
+            .WaitForCompletion(migrator);
+
         var gateway = builder
             .AddProject<ResourceryHR_Gateway>(ResourceryHRNames.Gateway, launchProfileName: LaunchProfileName)
             .WithExternalHttpEndpoints()
