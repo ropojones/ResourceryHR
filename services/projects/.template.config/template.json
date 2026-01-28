@@ -1,0 +1,41 @@
+{
+  "$schema": "http://json.schemastore.org/template",
+  "author": "Oluropo Akinbolade-Jones",
+  "classifications": [
+    "ABP",
+    "Microservice",
+    "Web",
+    "Web API",
+    "ASP.NET",
+    "Angular",
+    "Blazor"
+  ],
+  "identity": "Resourcery.AbpMicroserviceTemplate.NewService",
+  "name": "Resourcery ABP Microservice NewService Template",
+  "shortName": "resourcery-abp-microservice-newservice",
+  "sourceName": "Resourcery",
+  "preferNameDirectory": true,
+  "tags": {
+    "language": "C#",
+    "type": "project"
+  },
+  "sources": [
+    {
+      "modifiers": [
+        {
+          "exclude": [
+            ".template.config/**",
+            ".vs/**",
+            ".git/**",
+            ".github/**",
+            "**/bin/**",
+            "**/obj/**",
+            "**/*.user",
+            "**/.vs/**"
+          ]
+        }
+      ]
+    }
+  ],
+  "description": "This is a microservice template based on the ABP framework with Angular and Blazor frontends."
+}

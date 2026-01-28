@@ -1,0 +1,79 @@
+{
+  "folders": {
+    "items": {
+      "src": {},
+      "test": {},
+      "host": {}
+    }
+  },
+  "packages": {
+    "Resourcery.Recruitment.Domain.Shared": {
+      "path": "src/Resourcery.Recruitment.Domain.Shared/Resourcery.Recruitment.Domain.Shared.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.Domain": {
+      "path": "src/Resourcery.Recruitment.Domain/Resourcery.Recruitment.Domain.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.Application.Contracts": {
+      "path": "src/Resourcery.Recruitment.Application.Contracts/Resourcery.Recruitment.Application.Contracts.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.Application": {
+      "path": "src/Resourcery.Recruitment.Application/Resourcery.Recruitment.Application.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.EntityFrameworkCore": {
+      "path": "src/Resourcery.Recruitment.EntityFrameworkCore/Resourcery.Recruitment.EntityFrameworkCore.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.MongoDB": {
+      "path": "src/Resourcery.Recruitment.MongoDB/Resourcery.Recruitment.MongoDB.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.HttpApi": {
+      "path": "src/Resourcery.Recruitment.HttpApi/Resourcery.Recruitment.HttpApi.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.HttpApi.Client": {
+      "path": "src/Resourcery.Recruitment.HttpApi.Client/Resourcery.Recruitment.HttpApi.Client.abppkg.json",
+      "folder": "src"
+    },
+    "Resourcery.Recruitment.TestBase": {
+      "path": "test/Resourcery.Recruitment.TestBase/Resourcery.Recruitment.TestBase.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.Recruitment.EntityFrameworkCore.Tests": {
+      "path": "test/Resourcery.Recruitment.EntityFrameworkCore.Tests/Resourcery.Recruitment.EntityFrameworkCore.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.Recruitment.MongoDB.Tests": {
+      "path": "test/Resourcery.Recruitment.MongoDB.Tests/Resourcery.Recruitment.MongoDB.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.Recruitment.Domain.Tests": {
+      "path": "test/Resourcery.Recruitment.Domain.Tests/Resourcery.Recruitment.Domain.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.Recruitment.Application.Tests": {
+      "path": "test/Resourcery.Recruitment.Application.Tests/Resourcery.Recruitment.Application.Tests.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.Recruitment.HttpApi.Host": {
+      "path": "host/Resourcery.Recruitment.HttpApi.Host/Resourcery.Recruitment.HttpApi.Host.abppkg.json",
+      "folder": "host"
+    },
+    "Resourcery.Recruitment.HttpApi.Client.ConsoleTestApp": {
+      "path": "test/Resourcery.Recruitment.HttpApi.Client.ConsoleTestApp/Resourcery.Recruitment.HttpApi.Client.ConsoleTestApp.abppkg.json",
+      "folder": "test"
+    },
+    "Resourcery.Recruitment.IdentityServer": {
+      "path": "host/Resourcery.Recruitment.IdentityServer/Resourcery.Recruitment.IdentityServer.abppkg.json",
+      "folder": "host"
+    },
+    "Resourcery.Recruitment.Host.Shared": {
+      "path": "host/Resourcery.Recruitment.Host.Shared/Resourcery.Recruitment.Host.Shared.abppkg.json",
+      "folder": "host"
+    }
+  }
+}

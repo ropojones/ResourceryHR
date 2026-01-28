@@ -31,4 +31,8 @@ public static class ResourceryHRNames
     public const string WebAppApi = "ResourceryHRWebApp";
     public const string WebAppClient = "ResourceryHRWebAppClient";
     public const string WebAppDb = "ResourceryHRWebAppDb";
+
+    
+    public const string RecruitmentApi = "ResourceryHRRecruitment";
+    public const string RecruitmentDb = "ResourceryHRRecruitmentDb";
 }
