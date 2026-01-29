@@ -3,6 +3,7 @@ using ResourceryHR.Administration.EntityFrameworkCore;
 using ResourceryHR.Projects.EntityFrameworkCore;
 using ResourceryHR.SaaS.EntityFrameworkCore;
 using Volo.Abp.Identity.EntityFrameworkCore;
+using ResourceryHR.Recruitment.EntityFrameworkCore;
 
 namespace ResourceryHR.DbMigrator;
 
@@ -22,6 +23,7 @@ internal class Program
         builder.AddNpgsqlDbContext<IdentityDbContext>(connectionName: ResourceryHRNames.IdentityServiceDb);
         builder.AddNpgsqlDbContext<SaaSDbContext>(connectionName: ResourceryHRNames.SaaSDb);
         builder.AddNpgsqlDbContext<ProjectsDbContext>(connectionName: ResourceryHRNames.ProjectsDb);
+        builder.AddNpgsqlDbContext<RecruitmentDbContext>(connectionName: ResourceryHRNames.RecruitmentDb);
 
         builder.Configuration.AddAppSettingsSecretsJson();
 

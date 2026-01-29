@@ -19,6 +19,7 @@ internal class Program
         var identityDb = postgres.AddDatabase(ResourceryHRNames.IdentityServiceDb);
         var projectsDb = postgres.AddDatabase(ResourceryHRNames.ProjectsDb);
         var saasDb = postgres.AddDatabase(ResourceryHRNames.SaaSDb);
+        var recruitmentDb = postgres.AddDatabase(ResourceryHRNames.RecruitmentDb);
 
         var migrator = builder
             .AddProject<ResourceryHR_DbMigrator>(
@@ -29,6 +30,7 @@ internal class Program
             .WithReference(identityDb)
             .WithReference(projectsDb)
             .WithReference(saasDb)
+            .WithReference(recruitmentDb)
             .WithReference(seq)
             .WaitFor(postgres);
 
@@ -93,7 +95,7 @@ internal class Program
             )
             .WithExternalHttpEndpoints()
             .WithReference(adminDb)
-            .WithReference(projectsDb)
+            .WithReference(recruitmentDb)
             .WithReference(rabbitMq)
             .WithReference(redis)
             .WithReference(seq)
