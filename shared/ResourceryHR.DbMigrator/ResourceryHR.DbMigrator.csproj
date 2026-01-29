@@ -31,6 +31,8 @@
         <ProjectReference Include="..\..\services\projects\src\ResourceryHR.Projects.EntityFrameworkCore\ResourceryHR.Projects.EntityFrameworkCore.csproj" />
         <ProjectReference Include="..\..\services\saas\src\ResourceryHR.SaaS.Application.Contracts\ResourceryHR.SaaS.Application.Contracts.csproj" />
         <ProjectReference Include="..\..\services\saas\src\ResourceryHR.SaaS.EntityFrameworkCore\ResourceryHR.SaaS.EntityFrameworkCore.csproj" />
+        <ProjectReference Include="..\..\services\recruitment\src\ResourceryHR.Recruitment.Application.Contracts\ResourceryHR.Recruitment.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\services\recruitment\src\ResourceryHR.Recruitment.EntityFrameworkCore\ResourceryHR.Recruitment.EntityFrameworkCore.csproj" />
         <ProjectReference Include="..\ResourceryHR.Microservice.Shared\ResourceryHR.Microservice.Shared.csproj" />
         <ProjectReference Include="..\ResourceryHR.ServiceDefaults\ResourceryHR.ServiceDefaults.csproj" />
         <ProjectReference Include="..\ResourceryHR.Shared\ResourceryHR.Shared.csproj" />

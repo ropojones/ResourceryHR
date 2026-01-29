@@ -6,21 +6,24 @@ export const environment = {
   production: false,
   application: {
     baseUrl,
-    name: 'ResourceryHR',
+    name: 'ResourceryHRAdmin',
     logoUrl: '',
   },
   oAuthConfig: {
     issuer: 'https://localhost:7600/',
     redirectUri: baseUrl,
-    clientId: 'ResourceryHR_Angular',
+    clientId: 'ResourceryHR_Admin',
     responseType: 'code',
-    scope: 'ResourceryHRIdentityService ResourceryHRAdministration ResourceryHRSaaS',
+    scope: 'ResourceryHRAuthServer ResourceryHRIdentityService ResourceryHRAdministration ResourceryHRSaaS ResourceryHRRecruitment',
     requireHttps: false,
   },
   apis: {
     default: {
       url: 'https://localhost:7500',
-      rootNamespace: 'ResourceryHR',
+      rootNamespace: 'ResourceryHRAdmin',
     },
+  },
+   localization: {
+    defaultResourceName: "Recruitment",
   },
 } as Environment;

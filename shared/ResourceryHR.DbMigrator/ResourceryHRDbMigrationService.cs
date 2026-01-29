@@ -5,6 +5,7 @@ using ResourceryHR.Administration.EntityFrameworkCore;
 using ResourceryHR.IdentityService.EntityFrameworkCore;
 using ResourceryHR.Projects.EntityFrameworkCore;
 using ResourceryHR.SaaS.EntityFrameworkCore;
+using ResourceryHR.Recruitment.EntityFrameworkCore;
 using Volo.Abp.Data;
 using Volo.Abp.DependencyInjection;
 using Volo.Abp.EntityFrameworkCore;
@@ -133,6 +134,7 @@ public class ResourceryHRDbMigrationService(
         await MigrateDatabaseAsync<AdministrationDbContext>(cancellationToken);
         await MigrateDatabaseAsync<IdentityServiceDbContext>(cancellationToken);
         await MigrateDatabaseAsync<ProjectsDbContext>(cancellationToken);
+        await MigrateDatabaseAsync<RecruitmentDbContext>(cancellationToken);
         //await MigrateDatabaseAsync<WebAppDbContext>(cancellationToken);
 
         await uow.CompleteAsync(cancellationToken);

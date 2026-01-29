@@ -18,6 +18,22 @@ internal class Program
 
         builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer();
 
+        builder.Services.AddCors(options =>
+        {
+            options.AddDefaultPolicy(builder =>
+            {
+                builder
+                    .WithOrigins(
+                        "http://localhost:4200",
+                        "http://localhost:4300",
+                        "http://localhost:4400"
+                    )
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials();
+            });
+        });
+
         builder
             .Services.AddReverseProxy()
             .LoadFromConfig(builder.Configuration.GetSection("ReverseProxy"));
@@ -31,6 +47,8 @@ internal class Program
         }
 
         app.UseHttpsRedirection();
+
+        app.UseCors();
 
         app.UseAuthentication();
 

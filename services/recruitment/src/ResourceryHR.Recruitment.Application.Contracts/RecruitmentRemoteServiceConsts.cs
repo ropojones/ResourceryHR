@@ -4,5 +4,5 @@ public class RecruitmentRemoteServiceConsts
 {
     public const string RemoteServiceName = "Recruitment";
 
-    public const string ModuleName = "projects";
+    public const string ModuleName = "recruitment";
 }

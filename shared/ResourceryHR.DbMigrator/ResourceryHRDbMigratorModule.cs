@@ -6,6 +6,8 @@ using ResourceryHR.Projects;
 using ResourceryHR.Projects.EntityFrameworkCore;
 using ResourceryHR.SaaS;
 using ResourceryHR.SaaS.EntityFrameworkCore;
+using ResourceryHR.Recruitment;
+using ResourceryHR.Recruitment.EntityFrameworkCore;
 using Volo.Abp.Autofac;
 using Volo.Abp.BackgroundJobs;
 using Volo.Abp.Modularity;
@@ -23,6 +25,8 @@ namespace ResourceryHR.DbMigrator;
 [DependsOn(typeof(ProjectsApplicationContractsModule))]
 [DependsOn(typeof(SaaSEntityFrameworkCoreModule))]
 [DependsOn(typeof(SaaSApplicationContractsModule))]
+[DependsOn(typeof(RecruitmentEntityFrameworkCoreModule))]
+[DependsOn(typeof(RecruitmentApplicationContractsModule))]
 //[DependsOn(typeof(WebAppEntityFrameworkCoreModule))]
 //[DependsOn(typeof(WebAppApplicationContractsModule))]
 public class ResourceryHRDbMigratorModule : AbpModule

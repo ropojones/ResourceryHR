@@ -7,6 +7,7 @@ using ResourceryHR.Administration.EntityFrameworkCore;
 using ResourceryHR.IdentityService;
 using ResourceryHR.IdentityService.EntityFrameworkCore;
 using ResourceryHR.MultiTenancy;
+using ResourceryHR.Recruitment;
 using ResourceryHR.SaaS;
 using Volo.Abp;
 using Volo.Abp.AspNetCore.Mvc.UI.MultiTenancy;
@@ -24,6 +25,7 @@ namespace ResourceryHR.Administration;
 [DependsOn(typeof(IdentityServiceApplicationContractsModule))]
 [DependsOn(typeof(IdentityServiceEntityFrameworkCoreModule))]
 [DependsOn(typeof(SaaSApplicationContractsModule))]
+[DependsOn(typeof(RecruitmentDomainSharedModule))]
 [DependsOn(typeof(ResourceryHRMicroserviceModule))]
 [DependsOn(typeof(ResourceryHRServiceDefaultsModule))]
 public class AdministrationHttpApiHostModule : AbpModule

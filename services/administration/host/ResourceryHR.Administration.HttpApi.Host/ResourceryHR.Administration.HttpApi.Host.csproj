@@ -17,6 +17,7 @@
         <ProjectReference Include="..\..\..\identity\src\ResourceryHR.IdentityService.Application.Contracts\ResourceryHR.IdentityService.Application.Contracts.csproj" />
         <ProjectReference Include="..\..\..\identity\src\ResourceryHR.IdentityService.EntityFrameworkCore\ResourceryHR.IdentityService.EntityFrameworkCore.csproj" />
         <ProjectReference Include="..\..\..\saas\src\ResourceryHR.SaaS.Application.Contracts\ResourceryHR.SaaS.Application.Contracts.csproj" />
+        <ProjectReference Include="..\..\..\recruitment\src\ResourceryHR.Recruitment.Domain.Shared\ResourceryHR.Recruitment.Domain.Shared.csproj" />
         <ProjectReference Include="..\..\src\ResourceryHR.Administration.HttpApi\ResourceryHR.Administration.HttpApi.csproj" />
         <ProjectReference Include="..\..\src\ResourceryHR.Administration.Application\ResourceryHR.Administration.Application.csproj" />
         <ProjectReference Include="..\..\src\ResourceryHR.Administration.EntityFrameworkCore\ResourceryHR.Administration.EntityFrameworkCore.csproj" />

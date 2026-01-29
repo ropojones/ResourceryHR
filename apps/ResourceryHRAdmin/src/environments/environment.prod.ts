@@ -12,16 +12,16 @@ export const environment = {
   oAuthConfig: {
     issuer: 'https://localhost:7600/',
     redirectUri: baseUrl,
-    clientId: 'ResourceryHR_Angular',
+    clientId: 'ResourceryHR_Admin',
     clientSecret: '1q2w3e*',
     responseType: 'code',
-    scope: 'offline_access ResourceryHRIdentityService ResourceryHRAdministration ResourceryHRSaaS',
+    scope: 'offline_access ResourceryHRAuthServer ResourceryHRIdentityService ResourceryHRAdministration ResourceryHRSaaS',
     requireHttps: true,
   },
   apis: {
     default: {
       url: 'https://localhost:7500',
-      rootNamespace: 'ResourceryHR',
+      rootNamespace: 'ResourceryHRAdmin',
     },
   },
 } as Environment;
