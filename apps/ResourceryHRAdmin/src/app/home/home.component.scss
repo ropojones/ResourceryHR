@@ -1,1 +1,10 @@
 /* Styles for the home component */
+
+.container > .card {
+  border-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.container .card-body {
+  box-shadow: none !important;
+}

@@ -2,6 +2,9 @@
   "culture": "pt-BR",
   "texts": {
     "MyAccount": "Minha conta",
-    "SamplePageMessage": "Uma página de amostra para o módulo Recruitment"
+    "SamplePageMessage": "Uma página de amostra para o módulo Recruitment",
+    "OfficialHRSite": "O site oficial de carreiras da CEDEAO",
+    "ECOWASCareers": "Carreiras da CEDEAO",
+    "ECOWASCareersDescription": "Explore oportunidades de carreira empolgantes com a CEDEAO e junte-se à nossa missão de promover a integração regional e o desenvolvimento."
   }
 }

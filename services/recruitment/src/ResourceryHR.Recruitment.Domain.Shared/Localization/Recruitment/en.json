@@ -4,6 +4,10 @@
     "MyAccount": "My account",
     "SamplePageMessage": "A sample page for the Recruitment module",
     "Welcome": "Welcome to ResourceryHR Administration!",
-    "LongWelcomeMessage": "This application is a starting point for your ResourceryHR Administration application."  
+    "LongWelcomeMessage": "This application is a starting point for your ResourceryHR Administration application.",
+    "OfficialHRSite": "The Official ECOWAS Recruitment Website",
+    "ECOWASCareers": "ECOWAS Careers",
+    "ECOWASCareersDescription": "Explore exciting career opportunities with ECOWAS and join our mission to promote regional integration and development."
+
   }
 }
