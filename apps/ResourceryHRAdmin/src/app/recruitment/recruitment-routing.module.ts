@@ -6,7 +6,7 @@ import { RecruitmentCandidatesComponent } from './candidates/candidates.componen
 import { RecruitmentInterviewsComponent } from './interviews/interviews.component';
 import { RecruitmentReportsComponent } from './reports/reports.component';
 import { RecruitmentExercisesComponent } from './exercises/exercises.component';
-import { RecruitmentJobsComponent } from './jobs/jobs.component';
+ import { RecruitmentJobsComponent } from './jobs/jobs.component';
 import { RecruitmentOrganizationsComponent } from './organizations/organizations.component';
 import { RecruitmentApplicationsComponent } from './applications/applications.component';
 import { RecruitmentShortlistingComponent } from './shortlisting/shortlisting.component';

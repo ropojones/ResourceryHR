@@ -20,6 +20,12 @@ public class Exercise : FullAuditedAggregateRoot<Guid>, IMultiTenant
     public string Title { get; protected set; }
 
     /// <summary>
+    /// Reference to the organization that owns this exercise
+    /// </summary>
+    public Guid OrganizationId { get; protected set; }
+
+
+    /// <summary>
     /// Description of the recruitment exercise
     /// </summary>
     public string Description { get; protected set; }
@@ -54,6 +60,7 @@ public class Exercise : FullAuditedAggregateRoot<Guid>, IMultiTenant
     /// </summary>
     public Exercise(
         Guid id,
+        Guid organizationId,
         string title,
         string description,
         DateTime startDate,
@@ -62,12 +69,27 @@ public class Exercise : FullAuditedAggregateRoot<Guid>, IMultiTenant
         bool isActive = true,
         Guid? tenantId = null) : base(id)
     {
+        SetOrganization(organizationId);
         SetTitle(title);
         SetDescription(description);
         SetDates(startDate, endDate);
         ReferenceNumber = referenceNumber;
         IsActive = isActive;
         TenantId = tenantId;
+    }
+
+    /// <summary>
+    /// Sets the organization for the exercise
+    /// </summary>
+    public Exercise SetOrganization(Guid organizationId)
+    {
+        if (organizationId == Guid.Empty)
+        {
+            throw new ArgumentException("OrganizationId cannot be empty", nameof(organizationId));
+        }
+
+        OrganizationId = organizationId;
+        return this;
     }
 
     /// <summary>

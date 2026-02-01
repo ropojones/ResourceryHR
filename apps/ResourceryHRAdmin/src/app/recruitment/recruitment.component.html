@@ -1,11 +1,6 @@
 <div class="qt-dashboard rounded-0" [class.is-collapsed]="isSidebarCollapsed">
   <app-recruitment-sidebar [collapsed]="isSidebarCollapsed"></app-recruitment-sidebar>
-  <app-recruitment-page
-    [collapsed]="isSidebarCollapsed"
-    (toggleSidebar)="toggleSidebar()"
-  >
-  
-
+  <app-recruitment-page [collapsed]="isSidebarCollapsed" (toggleSidebar)="toggleSidebar()">
 
   </app-recruitment-page>
 </div>

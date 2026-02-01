@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
+import { LocalizationModule } from '@abp/ng.core';
 
 import { RecruitmentRoutingModule } from './recruitment-routing.module';
 import { RecruitmentComponent } from './recruitment.component';
@@ -35,6 +36,7 @@ import { RecruitmentScreeningComponent } from './screening/screening.component';
   ],
   imports: [
     CommonModule,
+    LocalizationModule,
     RecruitmentRoutingModule
   ]
 })

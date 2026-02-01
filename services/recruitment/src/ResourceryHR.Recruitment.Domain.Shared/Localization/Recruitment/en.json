@@ -7,7 +7,32 @@
     "LongWelcomeMessage": "This application is a starting point for your ResourceryHR Administration application.",
     "OfficialHRSite": "The Official ECOWAS Recruitment Website",
     "ECOWASCareers": "ECOWAS Careers",
-    "ECOWASCareersDescription": "Explore exciting career opportunities with ECOWAS and join our mission to promote regional integration and development."
+    "ECOWASCareersDescription": "Explore exciting career opportunities with ECOWAS and join our mission to promote regional integration and development.",
+    "Dashboard" : "Dashboard",
+    "Organization": "Organization",
+    "Organizations": "Organizations",
+    "NewOrganization": "New Organization",
+    "EditOrganization": "Edit Organization",
+    "OrganizationList": "List of Organizations",
+    "OrganizationDetails": "Organization Details",
+    "DeleteOrganization": "Delete Organization",
+    "OrganizationName": "Organization Name",
+    "OrganizationDescription": "Organization Description",
+    "OrganizationCreatedSuccessfully": "Organization created successfully.",
+    "OrganizationUpdatedSuccessfully": "Organization updated successfully.",
+    "Exercise": "Exercise",
+    "Exercises": "Exercises",
+    "Jobs": "Jobs",
+    "Applications": "Applications",
+    "Shortlisting": "Shortlisting",
+    "Screening": "Screening",
+    "Candidates": "Candidates",
+    "Interviews": "Interviews",
+    "Offers": "Offers",
+    "Reports": "Reports",
+    "Settings": "Settings"
+
+
 
   }
 }

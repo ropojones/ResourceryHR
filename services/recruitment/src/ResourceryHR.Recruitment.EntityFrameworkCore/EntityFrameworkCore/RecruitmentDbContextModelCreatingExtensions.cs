@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ResourceryHR.Recruitment.Exercises;
 using ResourceryHR.Recruitment.JobPostings;
+using ResourceryHR.Recruitment.Organizations;
 using Volo.Abp;
 using Volo.Abp.EntityFrameworkCore.Modeling;
 
@@ -11,6 +12,25 @@ public static class RecruitmentDbContextModelCreatingExtensions
     public static void ConfigureRecruitment(this ModelBuilder builder)
     {
         Check.NotNull(builder, nameof(builder));
+
+        // Organization entity configuration
+        builder.Entity<Organization>(b =>
+        {
+            b.ToTable(RecruitmentDbProperties.DbTablePrefix + "Organizations", RecruitmentDbProperties.DbSchema);
+
+            b.ConfigureByConvention();
+
+            // Properties
+            b.Property(o => o.Name)
+                .IsRequired()
+                .HasMaxLength(OrganizationConsts.MaxNameLength);
+
+            b.Property(o => o.Description)
+                .HasMaxLength(OrganizationConsts.MaxDescriptionLength);
+
+            // Indexes
+            b.HasIndex(o => o.Name);
+        });
 
         // Exercise entity configuration
         builder.Entity<Exercise>(b =>
@@ -29,6 +49,9 @@ public static class RecruitmentDbContextModelCreatingExtensions
             
             b.Property(e => e.ReferenceNumber)
                 .HasMaxLength(ExerciseConsts.MaxReferenceNumberLength);
+
+            b.Property(e => e.OrganizationId)
+                .IsRequired();
             
             b.Property(e => e.StartDate)
                 .IsRequired();
@@ -38,12 +61,19 @@ public static class RecruitmentDbContextModelCreatingExtensions
             
             b.Property(e => e.IsActive)
                 .IsRequired();
+
+            // Relations (aggregate boundary: FK only, no navigation)
+            b.HasOne<Organization>()
+                .WithMany()
+                .HasForeignKey(e => e.OrganizationId)
+                .OnDelete(DeleteBehavior.Cascade);
             
             // Indexes
             b.HasIndex(e => e.StartDate);
             b.HasIndex(e => e.EndDate);
             b.HasIndex(e => e.IsActive);
             b.HasIndex(e => e.ReferenceNumber);
+            b.HasIndex(e => e.OrganizationId);
         });
 
         // JobPosting entity configuration
