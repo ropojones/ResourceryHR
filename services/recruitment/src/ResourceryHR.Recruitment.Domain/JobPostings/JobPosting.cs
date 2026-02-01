@@ -16,6 +16,10 @@ public class JobPosting : FullAuditedAggregateRoot<Guid>, IMultiTenant
     /// Reference to the Exercise this job belongs to
     /// </summary>
     public Guid ExerciseId { get; protected set; }
+    /// <summary>
+    /// Job Code
+    /// </summary>
+    public string JobCode { get; protected set; }
 
     /// <summary>
     /// Job title
@@ -88,6 +92,7 @@ public class JobPosting : FullAuditedAggregateRoot<Guid>, IMultiTenant
     public JobPosting(
         Guid id,
         Guid exerciseId,
+        string jobCode,
         string title,
         string description,
         string department,

@@ -11,6 +11,33 @@
 :root  {
   --lpx-logo: url('/assets/images/logo/logo-light.png');
   --lpx-logo-icon: url('/assets/images/logo/logo-light-thumbnail.png');
+
+  --qt-bg: #f4f6fb;
+  --qt-surface: #ffffff;
+  --qt-surface-2: #f0f3fa;
+  --qt-text: #0b1220;
+  --qt-text-muted: #666666;
+  --qt-border: rgba(15, 23, 42, 0.08);
+  --qt-accent: #2f6bff;
+  --qt-sidebar-gradient-start: #ffffff;
+  --qt-sidebar-gradient-end: #ffffff;
+  --qt-sidebar-text: #1b2640;
+  --qt-sidebar-muted: #666666;
+  --qt-sidebar-hover: rgba(47, 107, 255, 0.12);
+  --qt-sidebar-active-text: #0b1220;
+  --qt-input-bg: rgba(15, 23, 42, 0.06);
+  --qt-upgrade-bg: rgba(15, 23, 42, 0.06);
+}
+
+body {
+  background: var(--qt-bg);
+  color: var(--qt-text);
+}
+
+html,
+body,
+app-root {
+  height: 100%;
 }
 .donut {
   display: inline-block;
@@ -28,4 +55,16 @@
     transform: translate(-50%, -50%);
   }
 
+}
+
+// Make only the direct child div.container full width (leave navbar container)
+abp-layout-application > div.container {
+  max-width: 100% !important;
+  width: 100% !important;
+  --bs-gutter-x:0rem !important;
+}
+
+// Remove the default mb-4 spacing from the ABP navbar
+#main-navbar {
+  margin-bottom: 0 !important;
 }

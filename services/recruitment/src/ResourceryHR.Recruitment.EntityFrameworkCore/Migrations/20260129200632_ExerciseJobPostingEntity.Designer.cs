@@ -13,7 +13,7 @@ using Volo.Abp.EntityFrameworkCore;
 namespace ResourceryHR.Recruitment.Migrations
 {
     [DbContext(typeof(RecruitmentDbContext))]
-    [Migration("20260129170422_ExerciseJobPostingEntity")]
+    [Migration("20260129200632_ExerciseJobPostingEntity")]
     partial class ExerciseJobPostingEntity
     {
         /// <inheritdoc />
@@ -110,7 +110,7 @@ namespace ResourceryHR.Recruitment.Migrations
 
                     b.HasIndex("StartDate");
 
-                    b.ToTable("RecruitmentExercises", (string)null);
+                    b.ToTable("Exercises", (string)null);
                 });
 
             modelBuilder.Entity("ResourceryHR.Recruitment.JobPostings.JobPosting", b =>
@@ -227,7 +227,7 @@ namespace ResourceryHR.Recruitment.Migrations
 
                     b.HasIndex("ExerciseId", "IsPublished");
 
-                    b.ToTable("RecruitmentJobPostings", (string)null);
+                    b.ToTable("JobPostings", (string)null);
                 });
 #pragma warning restore 612, 618
         }

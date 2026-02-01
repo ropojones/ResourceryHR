@@ -1,0 +1,67 @@
+<aside class="qt-sidebar" [class.is-collapsed]="collapsed">
+  <div class="qt-search">
+    <i class="fa fa-search" aria-hidden="true"></i>
+    <input type="text" placeholder="Search" aria-label="Search" />
+  </div>
+
+  <nav class="qt-nav">
+       <a
+      class="qt-nav-item"
+      routerLink="/recruitment/dashboard"
+      routerLinkActive="active"
+      [routerLinkActiveOptions]="{ exact: true }"
+    >
+      <i class="fa fa-th-large" aria-hidden="true"></i>
+      <span>Dashboard</span>
+    </a>
+    <a class="qt-nav-item" routerLink="/recruitment/organizations" routerLinkActive="active">
+      <i class="fa fa-building" aria-hidden="true"></i>
+      <span>Organizations</span>
+    </a>
+   <a class="qt-nav-item" routerLink="/recruitment/exercises" routerLinkActive="active">
+      <i class="fa fa-user" aria-hidden="true"></i>
+      <span>Exercises</span>
+    </a>
+    <a class="qt-nav-item" routerLink="/recruitment/jobs" routerLinkActive="active">
+      <i class="fa fa-briefcase" aria-hidden="true"></i>
+      <span>Jobs</span>
+    </a>
+    <div class="qt-nav-section">Pipeline</div>
+    <a class="qt-nav-item" routerLink="/recruitment/applications" routerLinkActive="active">
+      <i class="fa fa-inbox" aria-hidden="true"></i>
+      <span>Applications</span>
+    </a>
+    <a class="qt-nav-item" routerLink="/recruitment/shortlisting" routerLinkActive="active">
+      <i class="fa fa-filter" aria-hidden="true"></i>
+      <span>Shortlisting</span>
+    </a>
+    <a class="qt-nav-item" routerLink="/recruitment/screening" routerLinkActive="active">
+      <i class="fa fa-check-square" aria-hidden="true"></i>
+      <span>Screening</span>
+    </a>
+  
+    <a class="qt-nav-item" routerLink="/recruitment/candidates" routerLinkActive="active">
+      <i class="fa fa-users" aria-hidden="true"></i>
+      <span>Candidates</span>
+    </a>
+    <a class="qt-nav-item" routerLink="/recruitment/interviews" routerLinkActive="active">
+      <i class="fa fa-calendar" aria-hidden="true"></i>
+      <span>Interviews</span>
+    </a>
+    <a class="qt-nav-item" routerLink="/recruitment/reports" routerLinkActive="active">
+      <i class="fa fa-line-chart" aria-hidden="true"></i>
+      <span>Reports</span>
+    </a>
+    <div class="qt-nav-section">Team</div>
+    <a class="qt-nav-item" href="javascript:void(0)">
+      <i class="fa fa-cog" aria-hidden="true"></i>
+      <span>Settings</span>
+    </a>
+  </nav>
+
+  <div class="qt-upgrade">
+    <div class="qt-upgrade-title">Upgrade your plan</div>
+    <div class="qt-upgrade-text">Unlock advanced analytics & team insights.</div>
+    <button class="btn btn-light btn-sm">Upgrade</button>
+  </div>
+</aside>

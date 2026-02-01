@@ -12,7 +12,7 @@ namespace ResourceryHR.Recruitment.Migrations
         protected override void Up(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.CreateTable(
-                name: "RecruitmentExercises",
+                name: "Exercises",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -35,11 +35,11 @@ namespace ResourceryHR.Recruitment.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_RecruitmentExercises", x => x.Id);
+                    table.PrimaryKey("PK_Exercises", x => x.Id);
                 });
 
             migrationBuilder.CreateTable(
-                name: "RecruitmentJobPostings",
+                name: "JobPostings",
                 columns: table => new
                 {
                     Id = table.Column<Guid>(type: "uuid", nullable: false),
@@ -69,52 +69,52 @@ namespace ResourceryHR.Recruitment.Migrations
                 },
                 constraints: table =>
                 {
-                    table.PrimaryKey("PK_RecruitmentJobPostings", x => x.Id);
+                    table.PrimaryKey("PK_JobPostings", x => x.Id);
                 });
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentExercises_EndDate",
-                table: "RecruitmentExercises",
+                name: "IX_Exercises_EndDate",
+                table: "Exercises",
                 column: "EndDate");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentExercises_IsActive",
-                table: "RecruitmentExercises",
+                name: "IX_Exercises_IsActive",
+                table: "Exercises",
                 column: "IsActive");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentExercises_ReferenceNumber",
-                table: "RecruitmentExercises",
+                name: "IX_Exercises_ReferenceNumber",
+                table: "Exercises",
                 column: "ReferenceNumber");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentExercises_StartDate",
-                table: "RecruitmentExercises",
+                name: "IX_Exercises_StartDate",
+                table: "Exercises",
                 column: "StartDate");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentJobPostings_ApplicationDeadline",
-                table: "RecruitmentJobPostings",
+                name: "IX_JobPostings_ApplicationDeadline",
+                table: "JobPostings",
                 column: "ApplicationDeadline");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentJobPostings_ExerciseId",
-                table: "RecruitmentJobPostings",
+                name: "IX_JobPostings_ExerciseId",
+                table: "JobPostings",
                 column: "ExerciseId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentJobPostings_ExerciseId_IsPublished",
-                table: "RecruitmentJobPostings",
+                name: "IX_JobPostings_ExerciseId_IsPublished",
+                table: "JobPostings",
                 columns: new[] { "ExerciseId", "IsPublished" });
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentJobPostings_IsPublished",
-                table: "RecruitmentJobPostings",
+                name: "IX_JobPostings_IsPublished",
+                table: "JobPostings",
                 column: "IsPublished");
 
             migrationBuilder.CreateIndex(
-                name: "IX_RecruitmentJobPostings_ReferenceNumber",
-                table: "RecruitmentJobPostings",
+                name: "IX_JobPostings_ReferenceNumber",
+                table: "JobPostings",
                 column: "ReferenceNumber");
         }
 
@@ -122,10 +122,10 @@ namespace ResourceryHR.Recruitment.Migrations
         protected override void Down(MigrationBuilder migrationBuilder)
         {
             migrationBuilder.DropTable(
-                name: "RecruitmentExercises");
+                name: "Exercises");
 
             migrationBuilder.DropTable(
-                name: "RecruitmentJobPostings");
+                name: "JobPostings");
         }
     }
 }
