@@ -13,7 +13,6 @@ public class RecruitmentPermissions
         public const string Update = Default + ".Update";
         public const string Delete = Default + ".Delete";
     }
-
     public static class Exercises
     {
         public const string Default = GroupName + ".Exercises";
@@ -21,7 +20,6 @@ public class RecruitmentPermissions
         public const string Update = Default + ".Update";
         public const string Delete = Default + ".Delete";
     }
-
     public static class JobPostings
     {
         public const string Default = GroupName + ".JobPostings";
@@ -29,8 +27,6 @@ public class RecruitmentPermissions
         public const string Update = Default + ".Update";
         public const string Delete = Default + ".Delete";
     }
-
-
     public static string[] GetAll()
     {
         return ReflectionHelper.GetPublicConstantsRecursively(typeof(RecruitmentPermissions));

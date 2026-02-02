@@ -25,5 +25,10 @@ public class RecruitmentHttpApiModule : AbpModule
         {
             options.Resources.Get<RecruitmentResource>().AddBaseTypes(typeof(AbpUiResource));
         });
+          
+        // Configure<AbpAspNetCoreMvcOptions>(options =>
+        // {
+        //     options.ConventionalControllers.Create(typeof(RecruitmentApplicationModule).Assembly);
+        // });
     }
 }

@@ -30,7 +30,20 @@
     "Interviews": "Interviews",
     "Offers": "Offers",
     "Reports": "Reports",
-    "Settings": "Settings"
+    "Settings": "Settings",
+    "Permission:Recruitment": "Recruitment",
+    "Permission:Recruitment:Organizations": "Organizations",
+    "Permission:Recruitment:Organizations:Create": "Create Organization",
+    "Permission:Recruitment:Organizations:Update": "Update Organization",  
+    "Permission:Recruitment:Organizations:Delete": "Delete Organization",
+    "Permission:Recruitment:Exercises": "Exercises",
+    "Permission:Recruitment:Exercises:Create": "Create Exercise",
+    "Permission:Recruitment:Exercises:Update": "Update Exercise",
+    "Permission:Recruitment:Exercises:Delete": "Delete Exercise",
+    "Permission:Recruitment:JobPostings": "Job Postings",
+    "Permission:Recruitment:JobPostings:Create": "Create Job",
+    "Permission:Recruitment:JobPostings:Update": "Update Job",
+    "Permission:Recruitment:JobPostings:Delete": "Delete Job"
 
 
 
